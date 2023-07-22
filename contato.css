@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body {
+    background: rgb(24, 26, 26);
+    width: 100vw;
+}
+
+header {
+    text-align:right;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+.class-header {
+    font-size: 20px;
+    margin-right: 35px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0,5s;
+    scale: 1.2;
+
+}
+
+.class-header:hover{
+color: #b30c22;
+}
+
+h4{
+    position: absolute;
+    left: 30px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.span-header {
+    color: #b30c22;
+}
+
+footer {
+    position: fixed;
+    left: 40%;
+    bottom: 0px;
+    color: #ffffff;
+}

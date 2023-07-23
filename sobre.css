@@ -63,3 +63,23 @@ header {
     color: #ffffff;
     font-size: 25px;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+      text-align: center;
+      margin: 10px;
+    }
+    .class-header {
+      display: block;
+      margin: 5px;
+    }
+    h4 {
+      position: static;
+      text-align: center;
+    }
+    footer {
+      position: static;
+      text-align: center;
+      left: 0;
+    }
+  }

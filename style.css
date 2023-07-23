@@ -44,3 +44,23 @@ footer {
     bottom: 0px;
     color: hsl(133, 100%, 50%);
 }
+
+@media screen and (max-width: 768px) {
+    header {
+      text-align: center;
+      margin: 10px;
+    }
+    .class-header {
+      display: block;
+      margin: 5px;
+    }
+    h4 {
+      position: static;
+      text-align: center;
+    }
+    footer {
+      position: static;
+      text-align: center;
+      left: 0;
+    }
+  }

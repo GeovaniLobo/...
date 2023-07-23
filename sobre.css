@@ -25,25 +25,26 @@ header {
 }
 
 .class-header:hover{
-color: #b30c22;
-}
+    color: hsl(133, 100%, 50%);
+    }
+    
+    h4{
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+        color: #ffffff;
+    }
+    .span-header {
+        color: hsl(133, 100%, 50%);
+    }
+    
+    footer {
+        position: fixed;
+        left: 40%;
+        bottom: 0px;
+        color: hsl(133, 100%, 50%);
+    }
 
-h4{
-    position: absolute;
-    left: 30px;
-    font-size: 30px;
-    color: #ffffff;
-}
-.span-header {
-    color: #b30c22;
-}
-
-footer {
-    position: fixed;
-    left: 40%;
-    bottom: 0px;
-    color: #ffffff;
-}
 
 .sobre {
     padding: 20px;
@@ -56,7 +57,7 @@ footer {
 }
 .sobre h1{
     font-size: 60px;
-    color: #b30c22;
+    color: hsl(133, 100%, 50%);
 }
 .sobre p{
     color: #ffffff;
